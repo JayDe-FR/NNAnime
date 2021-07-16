@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+button {
+  background: #8b0000 !important;
+  box-shadow: 0 2px 5px #333;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+#head-page {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("images/akira-wp.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#head-page h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 300%;
+  margin: 0 0.5em 10em 0;
+  border-bottom: 5px solid darkred;
+}
+
+#head-page p {
+  font-size: 150%;
+  font-weight: 100;
+  font-style: italic;
+  width: 60%;
+  line-height: 1.5em;
+}
+
+#head-page button {
+  position: absolute;
+  bottom: 5%;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
