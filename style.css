@@ -20,6 +20,10 @@ button {
   height: 60px;
 }
 
+.icon {
+  color: darkred;
+}
+
 #head-page {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
     url("images/akira-wp.png");
@@ -36,13 +40,14 @@ button {
 }
 
 #head-page p {
-  font-weight: 800;
-  font-style: italic;
-  width: 60%;
-  line-height: 1.5em;
+  font-size: 110%;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 #head-page button {
+  font-weight: 800;
   margin: 3rem auto;
   transition: all ease-in-out 250ms !important;
 }
@@ -53,14 +58,16 @@ button {
 }
 
 #section-tools {
-  margin: 5rem auto;
+  margin-top: 5rem;
 }
 
 #section-tools h3 {
-  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
 }
 
-#section-tools .icon {
-  margin-left: 1rem;
-  color: darkred;
+#section-tools p {
+  text-align: left;
+  margin-top: 1.75rem;
+  font-weight: 800;
 }
