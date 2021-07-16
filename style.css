@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@100;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
@@ -31,8 +31,9 @@ button {
 }
 
 #head-page h1 {
-  font-family: "Anton", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 300%;
+  text-transform: uppercase;
   margin: 0 0.5em 10em 0;
   border-bottom: 5px solid darkred;
 }
@@ -50,4 +51,13 @@ button {
   bottom: 5%;
   right: 50%;
   transform: translate(50%, 50%);
+}
+
+#section-tools .icon {
+  font-size: 130%;
+  color: darkred;
+}
+
+#section-tools h3 {
+  font-family: "Quicksand", sans-serif;
 }
