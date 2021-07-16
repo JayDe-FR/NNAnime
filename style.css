@@ -7,13 +7,12 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
 }
 
 button {
   background: #8b0000 !important;
-  box-shadow: 0 2px 5px #333;
 }
 
 .logo {
@@ -22,7 +21,6 @@ button {
 }
 
 #head-page {
-  height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
     url("images/akira-wp.png");
   background-position: center center;
@@ -31,7 +29,6 @@ button {
 }
 
 #head-page h1 {
-  font-family: "Quicksand", sans-serif;
   font-size: 300%;
   text-transform: uppercase;
   margin: 0 0.5em 10em 0;
@@ -39,25 +36,31 @@ button {
 }
 
 #head-page p {
-  font-size: 150%;
-  font-weight: 100;
+  font-weight: 800;
   font-style: italic;
   width: 60%;
   line-height: 1.5em;
 }
 
 #head-page button {
-  position: absolute;
-  bottom: 5%;
-  right: 50%;
-  transform: translate(50%, 50%);
+  margin: 3rem auto;
+  transition: all ease-in-out 250ms !important;
 }
 
-#section-tools .icon {
-  font-size: 130%;
-  color: darkred;
+#head-page button:hover {
+  background: #fafafa !important;
+  color: #8b0000 !important;
+}
+
+#section-tools {
+  margin: 5rem auto;
 }
 
 #section-tools h3 {
   font-family: "Quicksand", sans-serif;
+}
+
+#section-tools .icon {
+  margin-left: 1rem;
+  color: darkred;
 }
