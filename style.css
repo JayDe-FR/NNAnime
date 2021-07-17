@@ -92,11 +92,12 @@ button {
 }
 
 #section-subscribe button {
-  background: #fafafa !important;
-  color: #8b0000 !important;
+  background: #8b0000 !important;
+  color: #fafafa !important;
 }
 
 #section-subscribe button:hover {
   color: #fafafa !important;
-  background: #8b0000 !important;
+
+  background: #ac0000 !important;
 }
