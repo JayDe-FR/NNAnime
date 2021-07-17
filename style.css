@@ -90,3 +90,13 @@ button {
 #section-subscribe input::placeholder {
   font-weight: 600;
 }
+
+#section-subscribe button {
+  background: #fafafa !important;
+  color: #8b0000 !important;
+}
+
+#section-subscribe button:hover {
+  color: #fafafa !important;
+  background: #8b0000 !important;
+}
