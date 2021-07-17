@@ -57,17 +57,36 @@ button {
   color: #8b0000 !important;
 }
 
-#section-tools {
+#section-tools,
+#section-services,
+#section-benefits {
   margin-top: 5rem;
 }
 
-#section-tools h3 {
-  text-transform: uppercase;
-  font-weight: 100;
+#section-benefits {
+  margin-bottom: 5rem;
 }
 
-#section-tools p {
+#section-tools h3,
+#section-services h3,
+#section-benefits h3 {
+  text-transform: uppercase;
+}
+
+#section-tools h3 i,
+#section-services h3 i,
+#section-benefits h3 i {
+  margin-left: 1rem;
+}
+
+#section-tools p,
+#section-services p,
+#section-benefits p {
   text-align: left;
   margin-top: 1.75rem;
   font-weight: 800;
+}
+
+#section-subscribe input::placeholder {
+  font-weight: 600;
 }
