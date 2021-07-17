@@ -53,8 +53,7 @@ button {
 }
 
 #head-page button:hover {
-  background: #fafafa !important;
-  color: #8b0000 !important;
+  background: #ac0000 !important;
 }
 
 #section-tools,
@@ -98,6 +97,28 @@ button {
 
 #section-subscribe button:hover {
   color: #fafafa !important;
-
   background: #ac0000 !important;
+}
+
+#section-footer .icon {
+  color: #333;
+}
+
+#section-footer a {
+  text-decoration: none;
+  color: #8b0000;
+  font-weight: 800;
+  transition: all ease-in-out 250ms;
+}
+
+#section-footer a:hover {
+  color: #ac0000;
+}
+
+#section-footer .list-group-item {
+  background: #8b0000;
+}
+
+#section-footer .list-group-item:hover {
+  background: #ac0000;
 }
