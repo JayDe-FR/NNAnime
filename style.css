@@ -57,6 +57,15 @@ button {
   background: #ac0000 !important;
 }
 
+#section-perks > .row {
+  opacity: 0;
+  transition: all ease-in-out 2000ms;
+}
+
+#section-perks > .row.reveal {
+  opacity: 1;
+}
+
 #section-tools,
 #section-services,
 #section-benefits {

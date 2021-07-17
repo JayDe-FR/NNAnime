@@ -33,6 +33,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
   </head>
   <body>
     <div
@@ -53,12 +54,12 @@
         <p class="text-white m-auto">
           Your anime accessible anytime, anywhere.
         </p>
-        <button class="btn btn-lg text-white">More Infos</button>
+        <button type="button" class="btn btn-lg text-white">More Infos</button>
       </div>
     </div>
 
-    <div class="container p-3">
-      <div class="row" id="section-tools">
+    <div class="container p-3" id="section-perks">
+      <div class="row reveal" id="section-tools">
         <div class="col-md-6">
           <article class="tool-container p-2">
             <h3 class="row text-black tool-title justify-content-center">
@@ -84,7 +85,7 @@
           </article>
         </div>
       </div>
-      <div class="row" id="section-services">
+      <div class="row reveal" id="section-services">
         <div class="col-md-6">
           <article class="tool-container p-2">
             <h3 class="row text-black tool-title justify-content-center">
@@ -110,7 +111,7 @@
           </article>
         </div>
       </div>
-      <div class="row" id="section-benefits">
+      <div class="row reveal" id="section-benefits">
         <div class="col-md-12">
           <article class="tool-container p-2">
             <h3 class="row text-black tool-title justify-content-center">
@@ -141,7 +142,6 @@
             class="form-control text-center"
             placeholder="Email"
             required
-            autofocus
           />
         </div>
         <button
@@ -205,7 +205,5 @@
         </p>
       </div>
     </div>
-
-    <script defer src="script.js"></script>
   </body>
 </html>
